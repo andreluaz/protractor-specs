@@ -1,0 +1,14 @@
+{
+  "name": "protractor-americanas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.conf.js"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "protractor": "^5.4.1"
+  }
+}
