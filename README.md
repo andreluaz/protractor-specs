@@ -3,7 +3,11 @@ Usando o Protractor Specs em sites não Angular.
 
 ## Pré-requisito
 
-...Node e NPM
+Para instalar o Node segue o link abaixo:
+https://nodejs.org/en/
+
+Para instalar NPM segue o link abaixo:
+https://www.npmjs.com/get-npm
 
 ## Clonando o repositório
 
