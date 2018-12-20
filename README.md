@@ -3,38 +3,60 @@ Usando o Protractor Specs em sites não Angular.
 
 ## Pré-requisito
 
-Para instalar o Node acesse o link:
-https://nodejs.org/en/
+É necessário a instalação do node e npm, para instalar digite em seu terminal:
 
-Para instalar NPM acesse o link:
-https://www.npmjs.com/get-npm
+```
+brew install node
+```
 
 ## Clonando o repositório
 
-Para fazer uma cópia "clone" do repositório é necessário a instalação do git para isto basta seguir os passos deste link:
-https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
+Clone o Repositório:
 
-Após a instalação do git digite:
 ```
 git clone https://github.com/andreluaz/protractor-specs.git
 ```
-## Instalação das dependências:
 
-Após a cópia "clonagem" do repositório digite:
+## Instalação das dependências
+
+Após a clonagem do repositório digite:
+
 ```
 npm install
 ```
 
 Isto fará a instalação das dependências necessárias para a execução dos testes.
 
-## Uso:
+## Execução dos Testes
 
-Para executar digite:
+Para executar os testes, abra uma nova aba no terminal e digite:
 
 ```
 protractor protractor.conf.js
 ou
 npm test
+```
+## Arquitetura do Projeto
+
+```
+├── README.md
+├── features
+│   ├── pages                           - Classe e atributo da página
+│   │   └── page-home-americanas.js
+│   ├── scenarios                       - Feature escrita para os testes
+│   │   └── home.feature
+│   ├── step_definitions                - Snippets para implementar os testes
+│   │   └── home_steps.js
+│   └── support                         - Requisição e configuração
+│       ├── common.js
+│       └── env.js
+├── node_modules                        - Dependências instaladas
+├── package-lock.json                   - Versões das dependências instaladas
+├── package.json                        - Dependências usada no projeto
+├── protractor.conf.js                  - Configuração para a execução do protractor
+├── report                              - Relatório em HTML
+│   └── cucumber_report.html
+└── results.json                        - Resultado da execução
 ```
 
 ## Troubleshooting:
@@ -59,3 +81,7 @@ webdriver-manager update
 ou
 node ./node_modules/protractor/bin/webdriver-manager update
 ```
+
+## Referências
+
+Link para maiores informações sobre o protractor: http://www.protractortest.org/#/
