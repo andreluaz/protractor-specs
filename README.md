@@ -40,22 +40,12 @@ npm test
 
 ```
 ├── README.md
-├── features
-│   ├── pages                           - Classe e atributo da página
-│   │   └── page-home-americanas.js
-│   ├── scenarios                       - Feature escrita para os testes
-│   │   └── home.feature
-│   ├── step_definitions                - Snippets para implementar os testes
-│   │   └── home_steps.js
-│   └── support                         - Requisição e configuração
-│       ├── common.js
-│       └── env.js
+├── specs                               - As specs dos testes
+│      └── americanas.spec.js
 ├── node_modules                        - Dependências instaladas
 ├── package-lock.json                   - Versões das dependências instaladas
 ├── package.json                        - Dependências usada no projeto
 ├── protractor.conf.js                  - Configuração para a execução do protractor
-├── report                              - Relatório em HTML
-│   └── cucumber_report.html
 └── results.json                        - Resultado da execução
 ```
 
