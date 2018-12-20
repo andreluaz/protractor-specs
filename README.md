@@ -48,7 +48,7 @@ npm test
 └── protractor.conf.js                  - Configuração para a execução do protractor
 ```
 
-## Troubleshooting:
+## Troubleshooting
 
 Caso execute o comando:
 
@@ -59,9 +59,9 @@ npm test
 E uma mensagem de erro ocorra como descrito abaixo:
 
 ```
-[17:11:25] E/direct - Error code: 135
-[17:11:25] E/direct - Error message: Could not find update-config.json. Run 'webdriver-manager update' to download binaries.
-[17:11:25] E/direct - Error: Could not find update-config.json. Run 'webdriver-manager update' to download binaries.
+E/direct - Error code: 135
+E/direct - Error message: Could not find update-config.json. Run 'webdriver-manager update' to download binaries.
+E/direct - Error: Could not find update-config.json. Run 'webdriver-manager update' to download binaries.
 ```
 Execute o comando abaixo:
 
