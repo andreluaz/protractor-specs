@@ -45,7 +45,7 @@ npm test
 ├── node_modules                        - Dependências instaladas
 ├── package-lock.json                   - Versões das dependências instaladas
 ├── package.json                        - Dependências usada no projeto
-└──protractor.conf.js                  - Configuração para a execução do protractor
+└── protractor.conf.js                  - Configuração para a execução do protractor
 ```
 
 ## Troubleshooting:
